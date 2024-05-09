@@ -1,0 +1,32 @@
+footer {
+    height: 50px; 
+    width: 100%;
+
+    position: absolute;
+    bottom: 0; 
+
+    border-top: 1px solid #CCCCCC;     
+    color:white;
+    background-color: #88ab8e;
+    z-index: 1000px;
+}
+.login_footer {
+    display:flex; 
+    flex-direction: column; 
+    justify-content: end; 
+    align-items: center;
+}
+.home_footer, .inner_footer{
+    display:flex; 
+    flex-direction: column; 
+    justify-content: end; 
+    align-items: center;
+    bottom: unset;
+}
+.inner_footer {
+    bottom: 0;
+}
+
+/* .recpie_footer {
+    justify-content: end;
+} */
